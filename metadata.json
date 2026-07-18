@@ -1,0 +1,6 @@
+{
+  "name": "Divine Service",
+  "description": "Vedic rituals and spiritual guidance performed by Bramha Shree Bhogapurapu Venkataramana Sharma (Babu Panthulu Garu).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

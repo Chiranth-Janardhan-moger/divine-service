@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Libre Caslon Text", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  
+  --color-primary: #8f4e00;
+  --color-primary-container: #ff9933;
+  --color-secondary: #705d00;
+  --color-secondary-container: #fcd400;
+  --color-vermilion: #b22222;
+  --color-cream: #fffdf5;
+  --color-deep-brown: #554336;
+  --color-surface: #fbf9f1;
+  --color-on-surface: #1b1c17;
+  --color-on-surface-variant: #554336;
+  --color-outline-variant: #dbc2b0;
+  --color-outline: #887364;
+}
+
+/* Custom Background and decorative patterns */
+.lotus-pattern {
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDVkkSMjXV1cwR3eWEQUWFO4K1pOyOg53liNuBWtV4b9FlweXnuL392RXHbKaoC0r_qo6SO0Sroh6qh_mnUlDWYGjYxy-r-YQmAZ3WQg0kUJYc7jM-ltevHgjtmpyGSmM1LwnrePAxS7rez2hFfTYtF-v66hFn6q0dOKTsqmo5OWq8V1AQoRubAEOika3Bv_AzOctPQ49LoXMK9RYUCWI4cC_XKG12DNPxPL-cefCvAVJOO6EvJ8SZsk2xvGWJo_ADvU541_jl4PWM");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.glass-header {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.hero-gradient {
+  background: linear-gradient(to right, rgba(251, 249, 241, 1) 30%, rgba(251, 249, 241, 0.8) 60%, rgba(251, 249, 241, 0.1) 100%);
+}
+
