@@ -690,7 +690,7 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-4 md:px-8 py-8 space-y-24">
         
         {/* Hero Section */}
-        <section className="relative min-h-[70vh] flex items-center overflow-hidden py-8 md:py-16" id="home-section">
+        <section className="relative min-h-[70vh] flex items-center overflow-hidden py-8 md:py-16" id="home">
           {/* Subtle decorative background circles */}
           <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/2 rounded-full blur-3xl pointer-events-none" />
 
